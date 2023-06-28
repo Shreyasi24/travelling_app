@@ -1,0 +1,108 @@
+.hotelTop,
+.hotelEnd {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.hotelEnd {
+  align-items: flex-start;
+  margin-top: 30px;
+}
+.hotelConatiner {
+  max-width: 1440px;
+  margin: auto;
+  margin-top: 20px;
+}
+.topLeft h2 {
+  font-size: 35px;
+  margin-bottom: 10px;
+}
+.topLeft span {
+  font-size: 20px;
+}
+.topLeft h4 {
+  font-size: 25px;
+  margin: 15px 0;
+  color: rgb(13, 161, 202);
+}
+.topLeft h3 {
+  font-size: 22px;
+  margin-top: 10px;
+  color: rgb(5 46 1);
+  font-weight: 500;
+}
+.topRightBtn button {
+  padding: 10px 15px;
+  background-color: rgb(28, 55, 191);
+  color: #fff;
+  font-weight: 700;
+  font-size: 20px;
+  cursor: pointer;
+  border: none;
+}
+.hotelContent {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.btmLeft {
+  width: 59%;
+}
+.btmRight {
+  width: 39%;
+  background-color: rgb(161, 205, 233);
+  padding: 20px 15px;
+}
+.btmRight .topRightBtn {
+  margin-top: 10px;
+}
+.hotelWrapper {
+  position: relative;
+}
+.slider {
+  position: absolute;
+  top: 20px;
+  z-index: 999;
+  width: 60%;
+  margin: auto;
+  background-color: #000000c2;
+}
+.sliderImg {
+  width: 100%;
+  margin: auto;
+  height: 80vh;
+  padding: 40px;
+}
+.sldrImg {
+  width: 80%;
+  margin: auto;
+}
+.close {
+  position: absolute;
+  right: 30px;
+  top: 30px;
+  color: #fff;
+  font-size: 30px;
+  cursor: pointer;
+}
+.arrow {
+  position: absolute;
+  right: 30px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #fff;
+  font-size: 50px;
+  cursor: pointer;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  left: 0;
+  padding: 0 20px;
+}
+.arrow.r {
+  right: 0;
+  left: auto;
+}

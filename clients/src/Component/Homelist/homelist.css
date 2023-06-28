@@ -1,0 +1,21 @@
+.listHeading {
+  font-size: 40px;
+}
+.lstImg {
+  width: 90%;
+}
+.listText h2 {
+  font-size: 30px;
+  margin: 0;
+}
+.listText span {
+  font-size: 22px;
+  font-weight: 500;
+}
+.listText button {
+  margin-right: 10px;
+  background-color: blue;
+  color: #fff;
+  padding: 5px;
+  cursor: pointer;
+}

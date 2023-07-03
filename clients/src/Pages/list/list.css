@@ -7,7 +7,7 @@
   position: relative;
 }
 .listSearch {
-  width: 29%;
+  width: 30%;
   height: 600px;
   background-color: #efe63b;
   padding: 20px;
@@ -164,4 +164,10 @@
   -moz-border-radius: 5px;
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
+}
+.list_hotels {
+  width: 65%;
+}
+.ldng_item {
+  width: 1400px;
 }

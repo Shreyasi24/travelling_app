@@ -13,6 +13,7 @@ const Propertylist = () => {
       .catch((err) => console.log(err));
     setLoading(false);
   }, []);
+
   const images = [
     "https://picsum.photos/230/300?random=2",
     "https://picsum.photos/230/300?random=1",

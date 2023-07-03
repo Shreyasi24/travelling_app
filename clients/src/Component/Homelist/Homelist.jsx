@@ -20,7 +20,7 @@ const Homelist = () => {
     "https://picsum.photos/230/300?random=4",
     "https://picsum.photos/230/300?random=5",
   ];
-  console.log(photos.map((img) => console.log(img)));
+  //console.log(photos.map((img) => console.log(img)));
   return (
     <div className="featureDetails">
       <div className="featureContainer">
@@ -30,10 +30,10 @@ const Homelist = () => {
         ) : (
           <div className="featureInfo ">
             {data &&
-              data.map((item) => (
+              data.map((item, i) => (
                 <div className="featurePart" key={item._id}>
                   <div className="featureImg lstImg">
-                    <img src={photos.map((img, i) => img)} alt="/" />
+                    <img src={photos.map((img) => img)} alt="/" />
                   </div>
                   <div className="listText">
                     <h2>{item.name}</h2>
